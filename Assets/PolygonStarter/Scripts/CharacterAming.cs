@@ -10,6 +10,8 @@ public class CharacterAming : MonoBehaviour
     void Start()
     {
         mainCam = Camera.main;
+        Cursor.visible = false;
+        Cursor.lockState = CursorLockMode.Locked;
     }
 
     void Update()
