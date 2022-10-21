@@ -10,6 +10,7 @@ public class RaycastWeapon : MonoBehaviour
         public Vector3 initialPosition;
         public Vector3 initialVelocity;
         public TrailRenderer trailRenderer;
+        public int bounce;
     }
 
     public bool isFiring = false;
@@ -22,6 +23,7 @@ public class RaycastWeapon : MonoBehaviour
     public TrailRenderer bulletTracer;
     public Transform raycastOrigin;
     public Transform raycastDestination;
+    public AnimationClip weaponAnimation;
 
     private float accumulatedTime = 0.0f;
     private float maxLifeTime = 3.0f;

@@ -31,9 +31,9 @@ public class CharacterAming : MonoBehaviour
 
     private void Update()
     {
-        //if (aimLayer)
-        //{
-        //    aimLayer.weight = 1.0f;
-        //}
+        if (aimLayer)
+        {
+            aimLayer.weight = 1.0f;
+        }
     }
 }
