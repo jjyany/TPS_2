@@ -14452,7 +14452,7 @@ Transform:
   m_GameObject: {fileID: 6945494449554607599}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.9, y: 0.9, z: 0.9}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 566732937769873914}
@@ -14485,6 +14485,7 @@ MonoBehaviour:
   raycastOrigin: {fileID: 2465034588660241816}
   raycastDestination: {fileID: 0}
   weaponAnimation: {fileID: 7400000, guid: ec453a33f37208c4aa577f38ff73a2ad, type: 2}
+  weaponName: Rifle
 --- !u!1 &8605150184726277225
 GameObject:
   m_ObjectHideFlags: 0

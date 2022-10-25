@@ -14485,6 +14485,7 @@ MonoBehaviour:
   raycastOrigin: {fileID: 2465034588660241816}
   raycastDestination: {fileID: 0}
   weaponAnimation: {fileID: 7400000, guid: fb057b42ba6b55e459019a3ef0821893, type: 2}
+  weaponName: Pistol
 --- !u!1 &8605150184726277225
 GameObject:
   m_ObjectHideFlags: 0

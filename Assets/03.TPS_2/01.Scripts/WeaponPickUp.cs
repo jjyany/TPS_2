@@ -8,7 +8,7 @@ public class WeaponPickUp : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        ActiveWeapon activeWeapon = other.GetComponent<ActiveWeapon>();
+        ActiveWeapon activeWeapon = other.gameObject.GetComponent<ActiveWeapon>();
 
         if(activeWeapon != null)
         {

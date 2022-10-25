@@ -24,6 +24,7 @@ public class RaycastWeapon : MonoBehaviour
     public Transform raycastOrigin;
     public Transform raycastDestination;
     public AnimationClip weaponAnimation;
+    public string weaponName;
 
     private float accumulatedTime = 0.0f;
     private float maxLifeTime = 3.0f;
